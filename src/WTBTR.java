@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class WTBTR {
+    static int value = 1_000_000_000;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -12,7 +13,8 @@ public class WTBTR {
             for (int i = 0; i < n; i++) {
                 x[i] = sc.nextDouble();
                 y[i] = sc.nextDouble();
-                
+                int min = value;
+
             }
         }
     }
